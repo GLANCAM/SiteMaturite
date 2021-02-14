@@ -33,4 +33,7 @@ header {
   cursor: pointer;
   background-color: black;
   border-color: black;
+  transition: background 1s;
 }
+
+

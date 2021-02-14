@@ -4,6 +4,7 @@
       <DownHeader/>
       <Sobre/>
       <Planos/>
+      <Caracteristicas/>
       <Contato/>
       <Footer-matutite/>
   </div>
@@ -16,6 +17,7 @@ import Sobre from './components/Sobre'
 import FooterMatutite from './components/Footer-matutite.vue'
 import Contato from './components/Contato.vue'
 import Planos from './components/Planos.vue'
+import Caracteristicas from './components/Caracteristicas.vue'
 
 
 export default {
@@ -26,45 +28,45 @@ export default {
     Sobre,
     FooterMatutite,
     Contato,
-    Planos
+    Planos,
+    Caracteristicas
   }
 }
 </script>
 
  
 <style>
-  @-webkit-keyframes fadein{
-  from { opacity: 0; transform: translateY(-500px); }
-  to { opacity: 1; transform: translateY(0px);}
+  @-webkit-keyframes fadeIn{
+  from { opacity: 0; }
+  to { opacity: 1; }
 }
 
-@-moz-keyframes fadein{
-  from { opacity: 0; transform: translateY(-500px); }
-  to { opacity: 1; transform: translateY(0px);}
+@-moz-keyframes fadeIn{
+  from { opacity: 0; }
+  to { opacity: 1; }
 }
 
-@-o-keyframes fadein{
-  from { opacity: 0; transform: translateY(-500px); }
-  to { opacity: 1; transform: translateY(0px);}
+@-o-keyframes fadeIn{
+  from { opacity: 0; }
+  to { opacity: 1; }
 }
 
-@-ms-keyframes fadein{
-  from { opacity: 0; transform: translateY(-500px); }
-  to { opacity: 1; transform: translateY(0px);}
+@-ms-keyframes fadeIn{
+  from { opacity: 0; }
+  to { opacity: 1; }
 }
 
-@keyframes fadein{
-  from { opacity: 0; transform: translateY(-500px); }
-  to { opacity: 1; transform: translateY(0px);}
+@keyframes fadeIn{
+  from { opacity: 0; }
+  to { opacity: 1; }
 }
 
-
-  #app{
-    -ms-animation: fadein 2.2s ease-in-out;
-    -o-animation: fadein 2.2s ease-in-out;
-    -moz-animation: fadein 2.2s ease-in-out;
-    -webkit-animation: fadein 2.2s ease-in-out;
-    animation: fadein 2.2s ease-in-out;
-  }
+#app{
+    -ms-animation: fadeIn 2.2s ease-in-out;
+    -o-animation: fadeIn 2.2s ease-in-out;
+    -moz-animation: fadeIn 2.2s ease-in-out;
+    -webkit-animation: fadeIn 2.2s ease-in-out;
+    animation: fadeIn 2.2s ease-in-out;
+}
 
 </style>

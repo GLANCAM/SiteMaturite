@@ -138,10 +138,5 @@ export default {
 .info-contatos{
     width: auto;
 }
-
-.info-contato{
 }
-
-}
-
 </style>

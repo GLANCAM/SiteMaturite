@@ -109,6 +109,7 @@ export default {
   .btn-plans a:hover {
     border-color: white;
     background-color: white;
+  transition: background 1s;
   }
 
   @media (max-width: 1200px){
