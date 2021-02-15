@@ -51,7 +51,7 @@ export default {
   position: sticky;
   top: 0;
   height: 150px;
-  width: 100%;
+  width: 100vw;
   display: flex;
   align-items: center;
   justify-content: space-between;

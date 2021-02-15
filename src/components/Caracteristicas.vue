@@ -1,6 +1,6 @@
 <template>
   <section id="features">
-        <div class="center-vertical-horizontal h15 down1000">
+        <div class="down1000 center-vertical-horizontal h15">
                     <h1 class="center-text">NOSSAS PROPOSTAS</h1>
         </div>
 
@@ -59,7 +59,7 @@
             </div>
         </div>
         
-        <div class="center-vertical-horizontal h15 down1000">
+        <div class="down1000 center-vertical-horizontal h15">
             <a class="btn-e-muito-mais btn-a btn-orange center-text">E muito mais...</a>
         </div>
 
@@ -79,7 +79,7 @@ export default {
 
 <style>
   .down1000{
-    display: none
+    display: none !important;
   }
 
     #features{
@@ -229,7 +229,7 @@ export default {
   }
 
   .down1000{
-    display: flex;
+    display: flex !important;
     padding: 3.5vw;
   }
 
